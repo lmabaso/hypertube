@@ -43,7 +43,7 @@ class User {
             $field = (is_numeric($user)) ? 'user_id' : 'user_username';
             $data = $this->_db->query('SELECT * FROM users WHERE '. $field . '= ? OR user_email = ?', array($user, $user));
             if ($data->count()) {
-                $this->_data = $data->first();    
+                $this->_data = $data->first();
                 return (true);
             }
         }
