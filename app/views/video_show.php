@@ -5,6 +5,8 @@
             <source src="mov_bbb.ogg" type="video/ogg">
             Your browser does not support HTML5 video.
         </video> -->
+        <h1>Authors</h1>
+            <ul id="authors"></ul>
     </div>
     <div style="flex-grow: 1">
         videos to watch<br>
