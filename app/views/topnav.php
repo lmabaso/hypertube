@@ -12,7 +12,10 @@
         <?php
         if ($data['isloggedin'] == true)
         {
-            echo "Hello" . $data['name'];
+            echo "Hello " . $data['name'];
+        ?>
+            <button id="logout" style="width:auto;">Logout</button>
+        <?php
         }
         else if ($data['isloggedin'] == false)
         {
