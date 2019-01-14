@@ -25,6 +25,6 @@
         <?php
         }
         ?>
-
     </div>
 </div>
+<script src="public/js/login.js"></script>
