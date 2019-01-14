@@ -10,14 +10,14 @@ class Auth
         $this->$Database = $Database;
     }
 
-    function validateLogin($user, $pass)
+    function validateLogin($name, $pass)
     {
         $user = new User();
-        $login = $user->login($user, $pass);
+        $login = $user->login($name, $pass);
         if ($login)
         {
             echo Session::flash('success', 'Your loggin was succesfully');
-        //	Redirect::to('index.php');
+
         }
         else
         {
