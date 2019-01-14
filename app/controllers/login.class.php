@@ -2,9 +2,10 @@
 
 class login extends Controller
 {
-    public function index($name = '')
+    public function index($name = '', $pwd = '')
     {
-        $login = $this->model('Auth');
-        $login->
+        $login = new Auth();
+        $login->validateLogin($name, $pwd);
+        // $login->validateLogin();
     }
 }
