@@ -5,3 +5,4 @@
     <a href="#">Clients</a>
     <a href="#">Contact</a>
 </div>
+<script src="public/js/nav.js"></script>
