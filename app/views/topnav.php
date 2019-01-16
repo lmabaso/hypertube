@@ -1,10 +1,12 @@
 <div class="topnav" id="topbar">
     <div class="sidenav-containter">
         <span onclick="openNav()">&#9776; </span>
+        <div style="float:left; width: 150px; height: 50px; background-image:url(public/imgs/logo.png)">
+        </div>
     </div>
     <div class="search-container">
         <form action="/action_page.php">
-            <input type="text" placeholder="Search.." name="search">
+            <input type="text" placeholder="Search.." name="search" id="myInput">
             <button type="submit"><i class="fa fa-search"></i></button>
         </form>
     </div>
@@ -28,3 +30,4 @@
     </div>
 </div>
 <script src="public/js/login.js"></script>
+<script src="public/js/search.js"></script>
