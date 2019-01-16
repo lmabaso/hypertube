@@ -1,7 +1,9 @@
 <div class="topnav" id="topbar">
     <div class="sidenav-containter">
-        <span onclick="openNav()">&#9776; </span>
-        <div style="float:left; width: 150px; height: 50px; background-image:url(public/imgs/logo.png)">
+        <span onclick="openNav()">&#9776; HyperTube</span>
+        <!-- <h2 style="float: left; padding: 14px 0;"></h2> -->
+        <div >
+
         </div>
     </div>
     <div class="search-container">
